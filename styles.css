@@ -1,0 +1,95 @@
+@import url(https://db.onlinewebfonts.com/c/f449c0c6ecb0c39d9dde28e9281860d3?family=Pokemon%3A+Annon);
+@import url(https://db.onlinewebfonts.com/c/831e1f4da157d96bc996f8c9f5f1e578?family=Pokemon+GB);
+
+
+.rival, .giovanni, .gymbadge, .ligue, .capture {
+    filter: brightness(0%);
+}
+
+img.rival, .giovanni {
+    width: 100px;
+}
+
+img.showColor {
+    filter: brightness(100%);
+}
+
+img.gymbadge {
+    width: 50px;
+    height: 50px;
+}
+
+div.fights {
+    background-color: #a5a5a5;
+}
+
+div.points.card {
+    position: fixed;
+    z-index: 99;
+    top: 100px;
+    right: 70px;
+    width: 250px;
+    transition: right 1s ease; /* Transition de la propriété right sur 1 seconde */
+}
+
+div.points.card.hidden {
+    right: -150px;
+}
+
+span.x-button {
+    cursor: pointer;
+}
+
+/* Mise en page couleurs, etc ...*/
+
+body {
+    background-color: rgb(34, 34, 34);
+    color: white;
+}
+
+nav {
+    background-color: #084152;
+}
+
+#accordion .card {
+    background-color: #084152;
+    color: white !important;
+    margin-bottom: 1em;
+}
+
+#accordion .card h3 {
+    color: white;
+}
+
+table, table th, table td {
+    color: white;
+}
+
+span.badge {
+    background-color: #EE8329;
+}
+
+div.card-header {
+    background-color: #CD5241;
+}
+
+div.card {
+    background-color: #084152;
+}
+
+.progress-bar {
+    background-color: green;
+}
+
+nav > a {
+    font-family: "Pokemon: Annon", sans-serif;
+    margin-right: 1em !important;
+}
+
+body {
+    font-family: "Pokemon GB", sans-serif;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
